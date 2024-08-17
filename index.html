@@ -1,50 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BurgerStore</title>
-    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <div class="nav">
-            <div class="logo-block">
-                    <a class="logo" href="#">
-                        <img src="./static/img/Логотип.png">
+      <nav class="navigation">
+        <a class="logo" href="#">
+          <img src="./static/img/Логотип.png" />
+        </a>
+        <ul class="navigation-list">
+          <li>
+            <a href="#">
+              <span class="text-main">Главная</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="text">Акции</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="text">О нас</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="trash-logo">
+              <img src="./static/img/Кнопка _Корзина_.png" alt="Корзина" />
+            </a>
+          </li>
+        </ul>
+      </nav>
 
-                    </a>
-            </div>
-            <div class="navigation">
-                <ul>
-                    <li><a href="#">
-                        Главная
-                    </a>                        
-                    </li>
-                    <li><a href="#">
-                        Акции
-                    </a>                        
-                    </li>
-                    <li><a href="#">
-                        О нас
-                    </a>                        
-                    </li>
-                    <li><a href="#">
-                        <img src="./static/img/Кнопка _Корзина_.png" alt="Корзина" width="70px" height="70px">
-                    </a>                        
-                    </li>
-                </ul>
-            </div>
+      <div class="header-main">
+        <ul class="main-list">
+          <li>
+            <p class="text-main-big">Быстрая доставка для вас</p>
+          </li>
+          <li>
+            <p class="text-main-page">Сделай первый заказ и получи скидку 50%</p>
+          </li>
+          <li>
+            <a href='#'><button class="button-do-order">Заказать</button></a>
+          </li>
+        </ul>
+        <div class="burger">
+          <img class="burger-img" src="./static/img/Фото _Бургер_.png" />
         </div>
+      </div>
     </header>
 
     <main class="main">
-
+      <h2>Меню</h2>
+        <ul class="carusel-food-grid">
+          <li>
+            <img
+              class="carusel-img-food"
+              src="./static/img/Картинка _Бургеры_.png"
+              alt="Бургеры"
+            />
+            <p>Бургеры</p>
+          </li>
+          <li>
+            <img
+              class="carusel-img-food"
+              src="./static/img/Картинка _Горячие блюда_.png"
+              alt="Горячие блюда"
+            />
+            <p>Горячие блюда</p>
+          </li>
+          <li>
+            <img
+              class="carusel-img-food"
+              src="./static/img/Картинка _Блюда из курицы_.png"
+              alt="Блюда из курицы"
+            />
+            <p>Блюда из курицы</p>
+          </li>
+          <li>
+            <img
+              class="carusel-img-food"
+              src="./static/img/Картинка _Закуски_.png"
+              alt="Блюда из курицы"
+            />
+            <p>Закуски</p>
+          </li>
+          <li>
+            <img
+              class="carusel-img-food"
+              src="./static/img/Картинка _Салаты_.png"
+              alt="Салаты"
+            />
+            <p>Салаты</p>
+          </li>
+          <li>
+            <img
+              class="carusel-img-food"
+              src="./static/img/Картинка _Десерты_.png"
+              alt="Десерты"
+            />
+            <p>Десерты</p>
+          </li>
+        </ul>
     </main>
-    
-    <footer class="footer">
 
+    <footer class="footer">
+        <ul class="footer-list1">
+          <li>
+            <a href="#">
+              <span>Программа лояльности</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>Политика конфеденциальности</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>Договор оферты</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="footer-list2">
+          <li>
+            <span>ООО "Vintage Food"</span>
+          </li>
+          <li>
+            <span>© Все права защищены</span>
+          </li>
+          <li>
+            <a href="#">
+              <img class='logo-footer' src="./static/img/VK Circled.png" />
+            </a>
+            <a href="#">
+              <img  class='logo-footer' src="./static/img/Telegram.png" />
+        </ul>
     </footer>
-</body>
+  </body>
 </html>

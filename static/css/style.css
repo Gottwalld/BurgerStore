@@ -1,16 +1,184 @@
 body {
-    width: auto;
-    height: auto;
+  margin: 0px;
 }
 .header {
-    /* Каркас */
-position: absolute;
-width: 1920px;
-height: 1080px;
-background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+  width: 1200px;
+  height: 650px;
+  background: linear-gradient(
+    180deg,
+    #eda418 47.4%,
+    rgba(237, 164, 24, 0) 100%
+  );
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 70px;
+  padding-top: 50px;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+.logo {
+  display: block;
+  margin-top: 8px;
+}
+
+.trash-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.text-main {
+  margin-right: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 25px;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: auto 0;
+  margin-left: 100px;
+  align-items: center;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  list-style-type: none;
+  font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px;
+  width: 1200px;
+  height: 1024px;
+  padding-top: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.main-list {
+  width: 450px;
+  height: 300px;
+  margin-top: 100px;
+}
+
+.text-main-big{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 30 0;
+}
+
+.text-main-page{
+    margin: 30px 0;
+    font-size: 20px;
 
 }
 
-li>a{
-    text-decoration: none;
+.burger-img {
+    width: 470px;
+    height: 470px;
+  }
+
+.main-page {
+  width: 1200px;
+  height: 1024px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-do-order{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    color: #ffffff;
+    background-color: #E52626;
+    border-radius: 50px;
+    padding: 14px;
+    width: 145px;
+    height: 60px;
+
+}
+
+.main{
+    width: 1200px;
+    height: 650px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: block;
+    text-align: center;
+}
+
+.carusel-food-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+.carusel-img-food {
+  width: 300px;
+}
+
+.carusel-food-grid p {
+    font-size: 25px; /* Устанавливает размер шрифта для всех <p> внутри элемента с классом carusel-food-grid */
+}
+
+.carusel-food-grid > li > p {
+    margin: 0px;
+
+}
+
+.main h2{
+    font-size: 35px;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-right: 70px;
+  width: 1200px;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #eda61d 100%);
+  font-size: 15px;
+}
+
+
+.footer-list1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-list2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+
+}
+
+.logo-footer{
+    width: 50px;
+    height: 50px;
 }
